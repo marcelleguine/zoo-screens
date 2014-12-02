@@ -1,0 +1,36 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+.wrapper{
+    margin: 0 auto;
+    width: @content-width;
+}
+
+.border-radius(@radius1:@border-radius-base, @radius2:@border-radius-base, @radius3:@border-radius-base, @radius4:@border-radius-base) {
+    -moz-border-radius: @radius1 @radius2 @radius3 @radius4;
+    -webkit-border-radius: @radius1 @radius2 @radius3 @radius4;
+    border-radius: @radius1 @radius2 @radius3 @radius4;
+}
+
+.clearfix() {
+    *zoom:1;
+
+    &:before,
+    &:after {
+        content:"";
+        display:table;
+    }
+    &:after {
+        clear:both;
+    }
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
