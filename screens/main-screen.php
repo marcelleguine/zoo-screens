@@ -18,7 +18,7 @@
 			</div><!--end color-bar-->
 
 			<section class="welcome-box">
-				<h1>Bem vindo ao</h1>
+				<h1>Bem-vindo ao</h1>
 				<div class="logo-box">
 					<img src="images/logo.png" width="171" height="154" title="Zoo" alt="Zoo">
 					<h2>Buenos Aires</h2>
