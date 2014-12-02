@@ -1,0 +1,53 @@
+.events-bar{
+
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+
+	.event{
+
+		background-color: @color-primaryLight;
+		float: left;
+		position: relative;
+		width: 48%;
+
+		img{
+			left: 20px;
+			position: absolute;
+			top: -60px;
+		}
+
+		hgroup{
+			margin-left: 160px;
+		}
+
+		h1{
+			border-bottom: 1px dashed @color-border;
+			font-size: 1.3em;
+			margin: 10px 30px 10px 0;
+			padding-bottom: 10px;
+		}
+
+		h2{
+			font-family: @font-family-sans-serif-light;
+			font-size: 1.3em;
+			margin-bottom: 10px;
+			margin-left: 55px;
+		}
+
+		.event-time{
+			.border-radius();
+			border-bottom: 1px solid @color-border;
+			background-color: @color-primary;
+			font-family: @font-family-sans-serif;
+			padding: 15px;
+			position: absolute;
+			right: 20px;
+			top: 25px;
+		}
+	}
+
+	.event01{
+		margin-right: 4%;
+	}
+}

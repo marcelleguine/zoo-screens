@@ -1,47 +1,4 @@
-
-<!DOCTYPE html>
-<html>
-	
-	<head>
 				
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>ZOO - Buenos Aires</title>
-
-		<!-- favicon -->
-		<link rel="shortcut icon" href="favicon.ico">
-
-		<!-- css -->
-		<link rel="stylesheet" href="css/zoo-style.min.css">
-
-		<!-- js -->
-
-	</head>
-
-	<body>
-
-		<div class="wrapper">
-			<div class="color-bar">
-								
-				<div class="color01"></div>
-				<div class="color02"></div>
-				<div class="color03"></div>
-				<div class="color04"></div>
-				<div class="color05"></div>
-				<div class="color06"></div>
-				<div class="colorTrace"></div>
-							</div><!--end color-bar-->
-
-			<section class="welcome-box">
-				<h1>Bem vindo ao</h1>
-				<div class="logo-box">
-					<img src="images/logo.png" width="171" height="154" title="Zoo" alt="Zoo">
-					<h2>Buenos Aires</h2>
-				</div><!--end logo-box-->
-			</section><!--end welcome-box-->
-
-			<section class="events-bar">
-								
 				<section class="event event01">
 
 					<div class="color-bar color-bar-sm">
@@ -81,10 +38,4 @@
 					<span class="event-time">16h</span>
 
 				</section><!--end envent-->
-							</section><!--end events-bar-->
-			
-		</div><!--end wrapper-->
-		
-		
-	</body>
-</html>
+				
