@@ -15,11 +15,21 @@
 		<link rel="stylesheet" href="css/zoo-style.min.css">
 
 		<!-- js -->
-
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.anoslide.js"></script>
+		
 	</head>
 
 	<body>
 
-		
+		<script type="text/javascript">
+	$('#mainScreen ul').anoSlide(
+	{
+		items: 1,
+		speed: 500,
+		lazy: true,
+		auto: 4000
+	});
+</script>
 	</body>
 </html>
