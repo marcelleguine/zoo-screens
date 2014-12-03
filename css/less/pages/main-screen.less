@@ -1,8 +1,7 @@
 /*welcome-box*/
 .welcome-box{
 	
-	margin: 0 auto 120px;
-	padding-top: 80px;
+	margin: @margin-top auto 0;
 	text-align: center;
 	width: 250px;
 
@@ -35,3 +34,75 @@
 	}
 }
 /*end welcome-box*/
+
+/*photos-box*/
+.photos-box{
+
+	.description{
+
+		float: left;
+		margin-right: 4%;
+		margin-top: 200px;
+		width: 48%;
+
+		h1{
+			background: url("../images/bg-featured-txt.png") no-repeat right 0;
+			height: 70px;
+			font-size: 1em;
+			margin-left: @margin-left;
+			width: 290px;
+
+			span{
+				background-color: @color-primaryLight;
+				border: 1px solid @color-border;
+				border-right: none;
+				display: block;
+				margin-right: 60px;
+				padding: 6px 10px 6px 15px;
+				position: relative;
+				text-transform: uppercase;
+				top: 8px;
+			}
+		}
+
+		p{
+			margin-left: @margin-left;
+		}
+	}
+
+	.photos-wall{
+		
+		float: left;
+		margin-top: @margin-top;
+		width: 48%;
+
+		h2{
+			border-bottom: 1px dashed @color-border;
+			font-size: 1.1em;
+			margin-bottom: 30px;
+			margin-right: @margin-right;
+			text-align: right;
+			padding-bottom: 10px;
+		}
+
+		ul{
+
+			margin-right: @margin-right;
+			padding-left: 0;
+
+			li{
+
+				float: left;
+				margin: 0 1.666666666% 30px;
+				text-align: center;
+				width: 30%;
+
+				span{
+					display: block;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}
+/*end photos-box*/

@@ -6,4 +6,5 @@
 				<div class="color05"></div>
 				<div class="color06"></div>
 				<div class="colorTrace"></div>
+				<div class="clearfix"></div>
 				
