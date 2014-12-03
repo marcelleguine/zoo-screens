@@ -80,9 +80,9 @@
 
 					<!--SCREEN 3-->
 					<li class="carrosel-item">
-						<div class="map-box">
+						<section class="map-box">
 							<img src="images/map.jpg" width="100%">
-						</div><!--end map-box-->
+						</section><!--end map-box-->
 					</li>
 
 				</ul>
