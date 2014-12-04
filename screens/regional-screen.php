@@ -84,7 +84,7 @@
 					<!--SCREEN 2-->
 					<li class="carrosel-item">
 						<section class="map-box">
-							<img src="images/map.jpg" width="100%">
+							<img src="images/map.png" width="100%">
 						</section><!--end map-box-->
 					</li>
 				</ul>

@@ -19,7 +19,7 @@
 
 				</section><!--end envent-->
 
-				<section class="event">
+				<section class="event event02">
 
 					<div class="color-bar color-bar-sm">
 						<div class="color01"></div>
