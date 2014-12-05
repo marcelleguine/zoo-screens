@@ -17,7 +17,7 @@
 				<?php include("components/_color-bar.php") ?>
 			</div><!--end color-bar-->
 
-			<div id="mainScreen">
+			<div class="carrosel-box">
 				<ul class="carrosel">
 
 					<!--SCREEN 1-->
@@ -81,7 +81,7 @@
 					<!--SCREEN 3-->
 					<li class="carrosel-item">
 						<section class="map-box">
-							<img src="images/map.png" width="100%">
+							<img src="images/map.jpg" width="100%">
 						</section><!--end map-box-->
 					</li>
 

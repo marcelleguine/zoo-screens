@@ -1,0 +1,84 @@
+.zooIt-button {
+  position: relative;
+}
+
+.zooIt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px; /* this will determine the diameter of the circle  */
+  height: 200px; /* this will determine the diameter of the circle  */
+  visibility: hidden;
+  position: relative;
+  display: none;
+}
+
+.zooIt li {
+  overflow: hidden;
+  float:left;
+}
+
+.zooIt li a {
+  display: block;
+}
+  
+.pointer {
+  color: #34495e;
+  font-size: 22px;
+  margin-top: -15px;
+}
+
+
+.zooIt-button, .zooIt-button:visited {
+  background: @color-primaryLight; 
+  border: 3px solid @color-border;
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  color: white;
+  display: block;
+  height: 20px;
+  margin: 80px auto 20px;
+  padding: 10px 11px;
+  opacity: 0.8;
+  text-align: center;
+  width: 20px;
+}
+
+.zooIt-button:hover{ 
+  color: white;
+}
+
+.zooIt li a, .zooIt li a:visited{
+  
+  background: @color-primaryLight; 
+  border: 3px solid transparent;
+  border-radius: 100px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+  color: @color-text;
+  height: 80px;
+  padding: 10px;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  width: 80px;  
+
+  span{
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    position: relative;
+    top: 18px;
+  }
+}
+
+.zooIt li a:hover{
+  border: 3px solid @color-border;
+}

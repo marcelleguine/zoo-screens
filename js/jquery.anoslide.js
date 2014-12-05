@@ -213,7 +213,7 @@
 			
 					slide.element.css(
 					{
-						width: Math.floor(this.element.outerWidth()/this.options.items) + 40 + 'px',
+						width: Math.floor(this.element.outerWidth()/this.options.items) + 'px',
 						height: 'auto'
 					}).delay(key * this.options.delay).animate(
 					{

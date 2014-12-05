@@ -17,14 +17,111 @@
 		<!-- js -->
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/jquery.anoslide.js"></script>
-		
+		<script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 
 	<body>
 
+		<div class="wrapper">
+			<div class="color-bar">
+								
+				<div class="color01"></div>
+				<div class="color02"></div>
+				<div class="color03"></div>
+				<div class="color04"></div>
+				<div class="color05"></div>
+				<div class="color06"></div>
+				<div class="colorTrace"></div>
+				<div class="clearfix"></div>
+				
+			</div><!--end color-bar-->
+
+			<div class="carrosel-box">
+				<ul class="carrosel">
+
+					<!--SCREEN 1-->
+					<li class="carrosel-item">
+												
+						<section class="animal-description">
+							<img src="images/circle-tiger.png" width="122px" height="122px" title="Tigre" alt="Tigre">
+
+							<h1>Tigre <span>(Panthera tigris)</span></h1>
+
+							<p>O tigre (Panthera tigris) é um mamífero da família dos felídeos. Já foi e é encontrado em diversos países da Ásia. Os tigres são predadores de topo. Dentre suas subespécies há o maior entre todos os felinos selvagens. São animais territoriais e solitários.</p>
+
+							<p>É o felino com maior variação de tamanho do mundo, com o tigre-siberiano alcançando até 306 kg enquanto o tigre-de-bali alcançava no máximo 100 kg; tamanho comparável a suçuaranas e leopardos.</p>
+
+							<p>Algumas estimativas sugerem que existem menos de 2.500 indivíduos reprodutores maduros, com nenhuma subpopulação com mais de 250 indivíduos reprodutores maduros. A população era estimada em 100.000 indivíduos no início do século XX. Em tempos atuais, entretanto, apenas cerca de 4.000 indivíduos sobrevivem, uma queda de 97%.</p>
+						</section><!--end animal-description-->
+											</li>
+
+					<!--SCREEN 2-->
+					<li class="carrosel-item">
+						<section class="animals-about">
+							<h1>Tigres</h1>
+							
+													
+							
+							<section class="animals-about-item animals-about-item01">
+
+								<img src="images/animal-tiger01.png" width="99px" height="110px" title="Tigre Tony" alt="Tigre Tony">
+
+								<div class="animals-about-info">
+									<h1>Tony</h1>
+									<div class="animals-about-info-item"><span>Idade:</span> <strong>12 anos</strong></div>
+									<div class="animals-about-info-item"><span>Peso:</span> <strong>150 kg</strong></div>
+									<div class="animals-about-info-item"><span>Origem:</span> <strong>África do Sul</strong></div>
+									<div class="animals-about-info-item"><span>Comida favorita:</span> <strong>Paleta de Ovelha</strong></div>
+								</div><!--end animals-about-info-->
+
+							</section><!--end animals-about-item-->
+
+							<section class="animals-about-item animals-about-item02">
+
+								<img src="images/animal-tiger02.png" width="99px" height="110px" title="Tigre Jubbye" alt="Tigre Jubbye">
+
+								<div class="animals-about-info">
+									<h1>Jubbye</h1>
+									<div class="animals-about-info-item"><span>Idade:</span> <strong>8 anos</strong></div>
+									<div class="animals-about-info-item"><span>Peso:</span> <strong>190 kg</strong></div>
+									<div class="animals-about-info-item"><span>Origem:</span> <strong>África do Sul</strong></div>
+									<div class="animals-about-info-item"><span>Comida favorita:</span> <strong>Filé de Frango</strong></div>
+								</div><!--end animals-about-info-->
+
+							</section><!--end animals-about-item-->
+
+							<section class="animals-about-item animals-about-item03">
+
+								<img src="images/animal-tiger03.png" width="99px" height="110px" title="Tigre Fenrys" alt="Tigre Fenrys">
+
+								<div class="animals-about-info">
+									<h1>Fenrys</h1>
+									<div class="animals-about-info-item"><span>Idade:</span> <strong>6 anos</strong></div>
+									<div class="animals-about-info-item"><span>Peso:</span> <strong>150 kg</strong></div>
+									<div class="animals-about-info-item"><span>Origem:</span> <strong>África do Sul</strong></div>
+									<div class="animals-about-info-item"><span>Comida favorita:</span> <strong>Lasagna</strong></div>
+								</div><!--end animals-about-info-->
+
+							</section><!--end animals-about-item-->
+												</section><!--end animals-about-->
+					</li>
+
+					<!--SCREEN 3-->
+					<li class="carrosel-item">
+						<section class="tigers-names">
+							<img src="images/tigers-names.jpg" width="100%">
+						</section><!--end tigers-names-->
+					</li>
+
+				</ul>
+			</div><!--end mainScreen-->
+
+		</div><!--end wrapper-->
+		
 		<script type="text/javascript">
 	
-	$('#mainScreen ul').anoSlide(
+	$('.carrosel-box ul').anoSlide(
 	{
 		items: 1,
 		speed: 500,
@@ -32,13 +129,42 @@
 		auto: 4000
 	});
 
-	$('#regionalScreen ul').anoSlide(
-	{
-		items: 1,
-		speed: 500,
-		lazy: true,
-		auto: 4000
+	$(".zooIt-button").wheelmenu({
+  		animation: "fly",
+  		animationSpeed: "medium"
 	});
+
+	$(".zooIt-link").click(function() {
+    // alert("asa");
+  	$('.iterative-table-itens').css('display', 'none');
+  	$('.iterative-table-contents').css('display', 'block');
+  });
+
+  $("#zooIt-link01").click(function() {
+  	$('.iterative-table-content01').css('display', 'block');
+  });
+
+  $("#zooIt-link02").click(function() {
+  	$('.iterative-table-content02').css('display', 'block');
+  });
+
+  $("#zooIt-link03").click(function() {
+  	$('.iterative-table-content03').css('display', 'block');
+  });
+
+  $("#zooIt-link04").click(function() {
+  	$('.iterative-table-content04').css('display', 'block');
+  });
+
+  $("#zooIt-link05").click(function() {
+  	$('.iterative-table-content05').css('display', 'block');
+  });
+
+  $(".closeItem").click(function() {
+  	$('.iterative-table-contents').css('display', 'none');
+  	$('.iterative-table-content').css('display', 'none');
+  	$('.iterative-table-itens').css('display', 'block');
+  });
 
 </script>
 	</body>
